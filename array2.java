@@ -11,6 +11,11 @@ public class array2 {
         } else {
             System.out.println("no son iguales");
         }
+        if (frase1.equals(frase2)) {
+            System.out.println("Son iguales");
+        } else {
+            System.out.println("no son iguales");
+        }
 
     }
 }
