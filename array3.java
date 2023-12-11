@@ -12,7 +12,7 @@ public class array3 {
         String apellido2 = System.console().readLine();
 
         String cadena = nombre.substring(0, 3) + apellido1.substring(0, 3) + apellido2.substring(0, 3);
-        System.out.println(cadena);
         cadena = cadena.toUpperCase();
+        System.out.println(cadena);
     }
 }
