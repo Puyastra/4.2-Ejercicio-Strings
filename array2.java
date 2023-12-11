@@ -6,7 +6,7 @@ public class array2 {
         String frase1 = System.console().readLine();
         System.out.println("Escribe la segunda frase:");
         String frase2 = System.console().readLine();
-        if (frase1.equals(frase2)) {
+        if (frase1.equalsIgnoreCase(frase2)) {
             System.out.println("Son iguales");
         } else {
             System.out.println("no son iguales");
